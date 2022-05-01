@@ -22,3 +22,7 @@ a{
   color: #fff;
   text-decoration: none;
 }
+
+h1{
+  cursor: pointer;
+}

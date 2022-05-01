@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import Gif from './Gif';
+import './ListOfGifs.css'
 
 export default function ListOfGifs({ gifs }) {
 

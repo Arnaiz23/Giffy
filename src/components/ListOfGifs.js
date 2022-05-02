@@ -5,7 +5,7 @@ import './ListOfGifs.css'
 
 export default function ListOfGifs({ gifs }) {
 
-    return <React.Fragment>
+    return <div className="gifGrid">
         {
             (
                 gifs.map(({ id, title, url }) =>
@@ -17,5 +17,5 @@ export default function ListOfGifs({ gifs }) {
                     />
                 ))
         }
-    </React.Fragment>
+    </div>
 }

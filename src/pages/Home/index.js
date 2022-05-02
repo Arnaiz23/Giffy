@@ -4,6 +4,8 @@ import { Link, useLocation } from "wouter";
 import ListOfGifs from "../../components/ListOfGifs";
 import { useGifs } from "../../hooks/useGifs";
 
+import './Home.css'
+
 const POPULAR_GIFS = ["aomine", "pandas"]
 
 export default function Home() {
@@ -24,6 +26,7 @@ export default function Home() {
     return (
         <>
             <form onSubmit={handleSubmit}>
+                <input type="Submit"  value='Buscar' className="inputSearch" />
                 <input onChange={handleChange} type='text' value={keyword} placeholder="Search any keyword" />
             </form>
             <h3>Los gifs más populares</h3>

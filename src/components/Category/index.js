@@ -1,6 +1,7 @@
 import ListOfGifs from "components/ListOfGifs";
 import React from "react";
 import { Link } from "wouter";
+import './index.css';
 
 export default function Category({ name, options = [] }) {
   return (
